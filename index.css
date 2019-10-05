@@ -1,0 +1,167 @@
+body{
+	background-color: rgba(245,245,240,0.2);
+}
+
+.navbar{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.color-change{
+	color: #4dd0e1;
+}
+
+.excel-button{
+	font-size: 0.9em; 
+	color: #4dd0e1; 
+	border-color: #4dd0e1;
+	padding: 5px 25px 5px 25px;
+
+}
+
+#ex4 .p1[data-count]:after{
+  position:absolute;
+  right:10%;
+  top:8%;
+  content: attr(data-count);
+  font-size:40%;
+  padding:.2em;
+  border-radius:50%;
+  line-height:1em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width: 1em;
+  font-weight:bold;
+}
+
+.icon-bar {
+  width: 50px;
+  background-color: #fff;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 2px -2px rgba(0,0,0,.2);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: gray;
+  font-size: 20px;
+}
+
+.active i{
+  color: #4dd0e1;
+}
+
+.active{
+	border-right: 3px solid #4dd0e1;
+}
+
+#container-div{
+	margin-top: 4%; 
+	margin-left: 2%; 
+	width: 100%;
+	background-color: rgba(245,245,242,0.2); 
+	padding: 2%;
+}
+
+#privacy{
+	margin-left: 31%;
+	color: gray;
+	text-decoration: underline;
+	padding-right: 1%;
+	border-right: 1px solid gray;
+}
+
+#terms{
+	margin-left: 1%;
+	color: gray;
+	text-decoration: underline;
+	border-right: 1px solid gray;
+	padding-right: 1%;
+}
+
+#service{
+	margin-left: 1%;
+	color: gray;
+	text-decoration: underline;
+	padding-right: 1%;
+	border-right: 1px solid gray;
+}
+
+#contact{
+	margin-left: 1%;
+	color: gray;
+	text-decoration: underline;
+}
+
+
+#mybutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.card{
+	border:none;
+}
+
+#mybutton1 {
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+}
+
+#mybutton2 {
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+}
+
+.invision{
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(228, 224, 224, 0.8);
+    color: gray;
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+}
+
+.invision1 {
+	width: 40px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(228, 224, 224, 0.8);
+    color: gray;
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+}
+
+#mybutton4 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#mybutton1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#mybutton2 {
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+}
+#mybutton3 {
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+}
